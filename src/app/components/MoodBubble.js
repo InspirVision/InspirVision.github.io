@@ -1,1 +1,0 @@
-// for speech bubbles with gifs
