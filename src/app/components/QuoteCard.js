@@ -2,7 +2,7 @@
 export default function QuoteCard() {
 return (
     <div style={{
-        backgroundColor: "white",
+        backgroundColor: "#D8C9A7", 
         padding: "1rem",
         width: "300px",
         height: "400px",
@@ -11,11 +11,11 @@ return (
         transform: "skew(-2deg)",
     }}>
     <h1> <b>Quote of The Day </b></h1>
-    <h2> 06/15/2025 </h2>
+    <h2> 07/22/2025 </h2>
     <br />
     <br />
-    <p> "Each day provides its own gifts" <br />
-        - Marcus Aurelius 
+    <p> "I'm so proud of you. And soon, I'll be so proud of me too." <br />
+        - Wistful B.
     </p>
     </div>
 );

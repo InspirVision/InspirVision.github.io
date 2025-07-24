@@ -1,6 +1,6 @@
 // for speech bubbles with gifs
 
-// Left side: GIF above, Bubble below
+// left side with bubble above and gif below
 export function LeftMoodBubble() {
   return (
     <div className="flex flex-col items-center">
@@ -12,7 +12,7 @@ export function LeftMoodBubble() {
   );
 }
 
-// Right side: Bubble above, GIF below
+// right side with bubble above and gif below
 export function RightMoodBubble() {
   return (
     <div className="flex flex-col items-center">

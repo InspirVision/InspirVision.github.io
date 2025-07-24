@@ -19,15 +19,20 @@ export const metadata: Metadata = {
   description: "Your home for calm",
 };
 
-export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ backgroundColor: "#F4EFE3", color: "#4B3F2F" }}
       >
-        <NavBar/>
-        <main>{children}</main>
-        <Footer/>
+        <NavBar />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
   );
