@@ -1,22 +1,32 @@
-
 export default function QuoteCard() {
-return (
-    <div style={{
-        backgroundColor: "#D8C9A7", 
-        padding: "1rem",
-        width: "350px",
-        height: "350px",
-        fontFamily: "'Adelaide', italics",
-        boxShadow: "3px 4px 0 black",
-        transform: "skew(-2deg)",
-    }}>
-    <h1 className="text-3xl font-bold mb-2"> <b>Quote of The Day </b></h1>
-    <h2 className="text-xl text-black-300 mb-4"> 07/29/2025 </h2>
-    <br />
-    <br />
-    <p className="px-10 text-lg leading-loose italic text-center"> "I'm so proud of you. And soon, I'll be so proud of me too." <br />
-      <span className="block mt-2 text-right"> - Wistful B. </span>
-    </p>
+  return (
+    <div
+      className="relative w-[350px] h-[400px] p-6 border border-black bg-[#F5F0EB]/80 backdrop-blur-sm rounded-2xl shadow-md shadow-[#2E1F17]/20"
+      style={{ boxShadow: "4px 5px 0 #2E1F17", border: "2px solid #4B3F2F",
+ }}>
+
+      {/* Main Text Content */}
+      <h1 className="text-2xl font-semibold tracking-wide text-[#3A2F1B] mb-1">
+        Quote of The Day
+      </h1>
+      <h2 className="text-l text-[#7A6A50] italic mb-4">07/29/2025</h2>
+
+      <p className="text-lg italic text-center leading-relaxed text-[#2E2619] px-2">
+        "The only thing we have to fear is fear itself."
+        <br />
+        <span className="block mt-4 text-right text-base font-medium">
+          – Franklin D. Roosevelt
+        </span>
+      </p>
+
+      {/* Floral Background Accent */}
+      <div className="absolute bottom-0 right-0 opacity-25">
+        <img
+          src="navbar/rose3.png" 
+          alt="Rose Sketch"
+          className="w-32 h-auto"
+        />
+      </div>
     </div>
-);
+  );
 }

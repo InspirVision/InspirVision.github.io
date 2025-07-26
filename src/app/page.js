@@ -7,13 +7,12 @@ export default function HomePage() {
       style={{
         position: "relative",
         height: "100vh",
-        backgroundColor: "#fdfce5",
         padding: "0 2rem",
         display: "flex",
         alignItems: "center",
       }}
     >
-      {/* Left MoodBubble */}
+      {/* Left side displaying interactive calander */}
       <div style={{ position: "absolute", left: "5%", top: "50%", transform: "translateY(-50%)" }}>
         <LeftMoodBubble />
       </div>
@@ -23,10 +22,10 @@ export default function HomePage() {
         <QuoteCard />
       </div>
 
-      {/* Right MoodBubble */}
+      {/* Right side displaying time with seconds (EST) and counting
       <div style={{ position: "absolute", right: "5%", top: "50%", transform: "translateY(-50%)" }}>
         <RightMoodBubble />
-      </div>
+      </div> */}
     </main>
   );
 }
