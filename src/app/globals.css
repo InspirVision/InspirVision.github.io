@@ -19,16 +19,22 @@
   --font-display: var(--font-display);
 }
 
-/* Your global theme setup */
+/* global theme */
 body {
   background: linear-gradient(to bottom, #faa96b, #a44b08); /* #f5e7dc */
   color: #2E1F17;
   font-family: var(--font-body);
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+
 }
 
-/* Optional: make headings stylish */
+/* headers */
 h1, h2, h3 {
   font-family: var(--font-display);
   font-weight: 700;

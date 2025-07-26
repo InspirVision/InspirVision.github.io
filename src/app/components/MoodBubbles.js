@@ -1,3 +1,5 @@
+'use client'
+import { useState, useEffect } from 'react';
 
 // left side with calander
 export function LeftMoodBubble() {
@@ -30,35 +32,33 @@ export function LeftMoodBubble() {
 
 // right side with Digital clock
 
-// export function RightMoodBubble() {
-//   const [time, setTime] = useState<string>("");
+export function RightMoodBubble() {
+   const [time, setTime] = useState(new Date());
 
-//   useEffect(() => {
-//     const update = () => {
-//       const now = new Date();
-//       setTime(now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }));
-//     };
-//     update();
-//     const interval = setInterval(update, 1000);
-//     return () => clearInterval(interval);
-//   }, []);
+  useEffect(() => {
+    const intervalId = setInterval(() => setTime(new Date()), 1000);
+    return () => clearInterval(intervalId);
+  }, []);
 
-//   return (
-//     <div
-//       style={{
-//         backgroundColor: "#f7e5ce",
-//         padding: "1rem",
-//         borderRadius: "50%",
-//         width: "180px",
-//         height: "180px",
-//         display: "flex",
-//         alignItems: "center",
-//         justifyContent: "center",
-//         fontFamily: "var(--font-geist-mono)",
-//         boxShadow: "2px 3px 8px rgba(0, 0, 0, 0.1)",
-//       }}
-//     >
-//       <p className="text-xl">{time}</p>
-//     </div>
-//   );
-// }
+  const timeString = time.toLocaleTimeString([], {
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: true, // am/pm
+  });
+
+  const dateString = time.toLocaleDateString('en-US', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
+
+  return (
+    <div className="bg-white/10 backdrop-blur-sm px-8 py-8 rounded-xl shadow-md">
+      <div className="text-2xl font-serif font-bold text-black">{timeString}</div>
+      <br></br>
+      <div className="text-l italic font-serif font-bold text-black">{dateString}</div>
+    </div>
+  );
+}

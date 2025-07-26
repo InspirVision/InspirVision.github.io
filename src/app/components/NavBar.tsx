@@ -5,9 +5,9 @@ import { Heart } from "lucide-react";
 const NavBar = () => {
   return (
     <nav className="border-b border-[#C1B6A4] drop-shadow-sm shadow-[#c1b6a460] text-[#453C32] px-6 py-4 shadow-md"> 
-      {/* Top header & logo */}
+      {/* Top header & maybe a logo */}
       <div className="relative flex justify-between items-start mb-2">
-        <div className="text-l italic font-adelaide tracking-wide select-none">
+        <div className="text-l italic font-serif font-bold tracking-wide select-none">
           InspirVision
         </div>
 {/* maybe add rose image later */}

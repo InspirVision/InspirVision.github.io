@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-<footer className="border-t border-[#C1B6A4 drop-shadow-sm shadow-[#c1b6a460] text-[#000000]] p-4 flex items-center justify-center backdrop-blur-md border-t-4 border-#f4f1e6 min-h-[80px]">
+<footer className="border-t border-[#C1B6A4 drop-shadow-sm shadow-[#c1b6a460] text-[#000000] p-4 flex backdrop-blur-md border-t-2 border-#f4f1e6 flex-grow">
 
       {/* Left Side with quote grows to take all available space */}
       <div className="italic max-w-none flex-grow pr-8">
@@ -21,6 +21,7 @@ const Footer = () => {
           <h1 className="mb-2 text-l font-bold"> Contact Me </h1>
          <p><a href="https://linktr.ee/wistful.b">Linktree</a></p>
       </div>
+
     </footer>
   );
 };
