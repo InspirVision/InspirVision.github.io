@@ -9,13 +9,13 @@ export default function QuoteCard() {
       <h1 className="text-2xl font-semibold tracking-wide text-[#3A2F1B] mb-1">
         Quote of The Day
       </h1>
-      <h2 className="text-l text-[#7A6A50] italic mb-4">07/29/2025</h2>
+      <h2 className="text-l text-[#7A6A50] italic mb-4">07/30/2025</h2>
 
       <p className="text-lg italic text-center leading-relaxed text-[#2E2619] px-2">
-        "The only thing we have to fear is fear itself."
+        "Difficult roads often lead to beautiful destinations. Don't quit."
         <br />
         <span className="block mt-4 text-right text-base font-medium">
-          – Franklin D. Roosevelt
+          - Zig Ziglar
         </span>
       </p>
 
