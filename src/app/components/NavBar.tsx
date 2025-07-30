@@ -4,17 +4,17 @@ import { Heart } from "lucide-react";
 
 const NavBar = () => {
   return (
-    <nav className="border-b border-[#C1B6A4] drop-shadow-sm shadow-[#c1b6a460] text-[#453C32] px-6 py-4 shadow-md"> 
+    <nav className="border-b border-[#C1B6A4] drop-shadow-sm shadow-[#c1b6a460] text-[#453C32] px-8 py-6 shadow-md"> 
       {/* Top header & maybe a logo */}
       <div className="relative flex justify-between items-start mb-2">
-        <div className="text-l italic font-serif font-bold tracking-wide select-none">
+        <div className="text-xl italic font-serif font-bold tracking-wide select-none">
           InspirVision
         </div>
 {/* maybe add rose image later */}
       </div>
 
       {/* Navigation links */}
-      <ul className="flex flex-wrap justify-center gap-6 text-lg font-medium font-serif">
+      <ul className="flex flex-wrap justify-center gap-6 text-base font-medium font-serif">
                  <div className="">
             <Heart
               className="w-8 h-8 text-[#A9B388] hover:text-[#C3D59B] transition-colors duration-300"
@@ -27,8 +27,8 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/games" className="border-b border-[	#6f5e4d] hover:border-[#c5ae92] transition-all">
-            Games
+          <Link href="/playground" className="border-b border-[	#6f5e4d] hover:border-[#c5ae92] transition-all">
+            Playground
           </Link>
         </li>
         <li>

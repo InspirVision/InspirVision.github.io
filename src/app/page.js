@@ -1,6 +1,6 @@
 import { LeftMoodBubble, RightMoodBubble } from "./components/MoodBubbles";
 import QuoteCard from "./components/QuoteCard";
-import Calendar from "./components/Calendar";
+// import Calendar from "./components/Calendar";
 
 export default function HomePage() {
   return (
@@ -23,7 +23,7 @@ export default function HomePage() {
 </div>
       {/* Left side displaying interactive calander */}
       <div style={{ position: "absolute", left: "5%", top: "50%", transform: "translateY(-50%)" }}>
-        <Calendar />
+        {/* <Calendar /> */}
       </div>
 
       {/* Center QuoteCard */}

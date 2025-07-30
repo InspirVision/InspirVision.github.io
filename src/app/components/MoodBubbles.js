@@ -33,7 +33,7 @@ export function LeftMoodBubble() {
 // right side with Digital clock
 
 export function RightMoodBubble() {
-   const [time, setTime] = useState(new Date());
+  const [time, setTime] = useState(new Date());
 
   useEffect(() => {
     const intervalId = setInterval(() => setTime(new Date()), 1000);
@@ -44,7 +44,7 @@ export function RightMoodBubble() {
     hour: '2-digit',
     minute: '2-digit',
     second: '2-digit',
-    hour12: true, // am/pm
+    hour12: true,
   });
 
   const dateString = time.toLocaleDateString('en-US', {
@@ -55,10 +55,13 @@ export function RightMoodBubble() {
   });
 
   return (
-    <div className="bg-white/10 backdrop-blur-sm px-8 py-8 rounded-xl shadow-md">
-      <div className="text-2xl font-serif font-bold text-black">{timeString}</div>
-      <br></br>
-      <div className="text-l italic font-serif font-bold text-black">{dateString}</div>
+    <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-lg text-center w-full max-w-xs mx-auto border border-[#a44b08]">
+      <div className="text-4xl font-mono text-[#5c2e0a] tracking-widest">
+        {timeString}
+      </div>
+      <div className="mt-3 text-sm font-light italic text-[#7a4b26]">
+        {dateString}
+      </div>
     </div>
   );
 }

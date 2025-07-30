@@ -1,6 +1,7 @@
 {
   "name": "website-proj",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -12,20 +13,27 @@
     "@fullcalendar/core": "^6.1.18",
     "@fullcalendar/daygrid": "^6.1.18",
     "@fullcalendar/react": "^6.1.18",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.525.0",
     "next": "15.3.1",
+    "openai": "^5.10.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "tailwindcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "tw-animate-css": "^1.3.6",
     "typescript": "^5"
   },
-  "description": "My project, InspirVision, is a Next.js-powered web app designed to be a space of connection for teens who struggle with mental health or simply need a calm environment. InspirVision combines my passions for writing, photography, and coding to create a hyper-interactive platform for users to chat, read, and connect with others: featuring catalogs of poetry and other forms of writing paired with photographs, daily quotes (refreshed daily, of course!), a chatroom, brain games, and more. I made this project because I always wanted to make a website, but I wanted to do it with purpose and strong intent, so after a hard year, the idea came to me. A merging of Inspiration and Envisioning, I decided to create InspirVision. I’ve had the idea slightly planned out for a bit now, but finally locked in and got it fully up and running. I made my project initially with basic HTML, CSS, and JS, but when I learned about NextJS, I dove headfirst into learning that to improve the capabilities of my site, which extended the building period, but paid off because I learned a lot more. I started pretty slowly, aiming to get one page done per day (the bugs took hours..), then finally got to polishing and finished all my major parts. Some stuff I struggled with was the page linking and getting the formatting to look like how I envisioned it in my head. It was pretty difficult at first to get a hang of how the code kind of worked with Next.js, but when I caught on, it was much smoother sailing from there. This project took my web dev skills to the next level, especially since I tried to incorporate a lot of tiny features like image linking, audio, games, etc.",
+  "description": "My project, InspirVision, is a Next.js-powered web app designed to be a space of connection for people who struggle with mental health or simply need a calm environment. InspirVision combines my passions for writing, photography, and coding to create a hyper-interactive platform for users to chat, read, and connect with others: featuring catalogs of poetry and other forms of writing paired with photographs, daily quotes (refreshed daily, of course!), a chatroom, brain games, and more. I made this project because I always wanted to make a website, but I wanted to do it with purpose and strong intent, so after a hard year, the idea came to me. A merging of Inspiration and Envisioning, I decided to create InspirVision. I’ve had the idea slightly planned out for a bit now, but finally locked in and got it fully up and running. I made my project initially with basic HTML, CSS, and JS, but when I learned about NextJS, I dove headfirst into learning that to improve the capabilities of my site, which extended the building period, but paid off because I learned a lot more. I started pretty slowly, aiming to get one page done per day (the bugs took hours..), then finally got to polishing and finished all my major parts. Some stuff I struggled with was the page linking and getting the formatting to look like how I envisioned it in my head. It was pretty difficult at first to get a hang of how the code kind of worked with Next.js, but when I caught on, it was much smoother sailing from there. This project took my web dev skills to the next level, especially since I tried to incorporate a lot of tiny features like image linking, audio, games, etc.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -34,7 +42,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/InspirVision/InspirVision.github.io/issues"
   },
