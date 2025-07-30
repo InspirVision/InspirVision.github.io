@@ -1,5 +1,4 @@
 // for chat bot on lounge page --> will soon be turned into interative with other users but stay with me guys!
-// /pages/api/chat.js or /app/api/chat/route.js (depending on your Next.js version)
 
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
