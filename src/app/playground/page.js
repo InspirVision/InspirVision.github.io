@@ -1,4 +1,4 @@
-export default function playgroundPage(){
+export default function PlaygroundPage(){
     return (
     <main>
         <div className="text-center text-sm italic text-muted-foreground mt-10">

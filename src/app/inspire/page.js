@@ -137,7 +137,7 @@ function shuffleQuotes(array) {
   return newArray;
 }
 
-export default function page() {
+export default function Page() {
   const [category, setCategory] = useState("All");
   const [shuffledQuotes, setShuffledQuotes] = useState(shuffleQuotes(quotesData["All"]));
   const [index, setIndex] = useState(0);

@@ -25,7 +25,7 @@ function PhotoPoemCard({ image, snippet, fullPoem, showToggle = true }) {
 }
 
 {/* starting with only 3 images per section to deploy web */}
-export default function page({image, snippet, fullPoem}) {
+export default function Page() {
     return ( 
     <div className="px-4 py-10 space-y-20 transition-transform duration-200 ease-in-out"> {/* for a hover do 'hover:scale-105' */}
     {/* Section 1: Looking Glass */}

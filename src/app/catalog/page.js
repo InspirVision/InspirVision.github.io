@@ -38,7 +38,7 @@ function WritingCard({ title, author, snippet, fullText }) {
 }
 
 {/* starting with only 2 pieces of writing per section (most probs original) */}
-export default function catalogPage() {
+export default function CatalogPage() {
     return (
 <main className="space-y-16 px-6 py-10">
   {/* Poetry Section */}
