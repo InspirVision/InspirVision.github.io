@@ -12,10 +12,10 @@ export default function QuoteCard() {
       <h2 className="text-l text-[#7A6A50] italic mb-4">07/30/2025</h2>
 
       <p className="text-lg italic text-center leading-relaxed text-[#2E2619] px-2">
-        "Difficult roads often lead to beautiful destinations. Don't quit."
+        "There is always light. If only we're brave enough to see it. If only we're brave enough to be it."
         <br />
         <span className="block mt-4 text-right text-base font-medium">
-          - Zig Ziglar
+          - Amanda Gorman
         </span>
       </p>
 
