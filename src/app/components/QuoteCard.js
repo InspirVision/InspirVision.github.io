@@ -9,7 +9,7 @@ export default function QuoteCard() {
       <h1 className="text-2xl font-semibold tracking-wide text-[#3A2F1B] mb-1">
         Quote of The Day
       </h1>
-      <h2 className="text-l text-[#7A6A50] italic mb-4">07/31/2025</h2>
+      <h2 className="text-l text-[#7A6A50] italic mb-4">08/1/2025</h2>
 
       <p className="text-lg italic text-center leading-relaxed text-[#2E2619] px-2"> {/*tmr use "We build too many walls and not enough bridges" = Issac Newton*/}
         "You get the world you're willing to fight for." 
