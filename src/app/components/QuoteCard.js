@@ -9,7 +9,7 @@ export default function QuoteCard() {
       <h1 className="text-2xl font-semibold tracking-wide text-[#3A2F1B] mb-1">
         Quote of The Day
       </h1>
-      <h2 className="text-l text-[#7A6A50] italic mb-4">08/4/2025</h2>
+      <h2 className="text-l text-[#7A6A50] italic mb-4">08/5/2025</h2>
 
       <p className="text-lg italic text-center leading-relaxed text-[#2E2619] px-2"> 
         "If you change the way you look at things, the things you look at change." 
