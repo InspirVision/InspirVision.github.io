@@ -1,3 +1,19 @@
+import React from 'react';
+
+function TodayDate() {
+  const today = new Date();
+  const formattedDate = `${(today.getMonth() + 1)
+    .toString()
+    .padStart(2, '0')}/${today
+    .getDate()
+    .toString()
+    .padStart(2, '0')}/${today.getFullYear()}`;
+
+  return (
+    <h2 className="text-l text-[#7A6A50] italic mb-4">{formattedDate}</h2>
+  );
+}
+
 export default function QuoteCard() {
   return (
     <div
@@ -9,13 +25,14 @@ export default function QuoteCard() {
       <h1 className="text-2xl font-semibold tracking-wide text-[#3A2F1B] mb-1">
         Quote of The Day
       </h1>
-      <h2 className="text-l text-[#7A6A50] italic mb-4">08/5/2025</h2>
+
+      <TodayDate />
 
       <p className="text-lg italic text-center leading-relaxed text-[#2E2619] px-2"> 
-        "If you change the way you look at things, the things you look at change." 
+        "We don't have to walk the same road to stand toe to toe" 
         <br />
         <span className="block mt-4 text-right text-base font-medium">
-          - Wayne Oyer
+          - Wistful
         </span>
       </p>
 

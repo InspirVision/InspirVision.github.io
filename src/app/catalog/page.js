@@ -41,6 +41,132 @@ function WritingCard({ title, author, snippet, fullText }) {
 export default function CatalogPage() {
     return (
 <main className="space-y-16 px-6 py-10">
+   {/* Poetry Sets */}
+  <section>
+    <h1 className="text-3xl font-bold font-serif text-center mb-6 text-[#5B3A29]">Empty: Trilogy</h1>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <WritingCard 
+        title="Empty (1)"
+        author="Wistful"
+        snippet="Fill me up..."
+        fullText={`fill me up
+where’d you go?
+said you were here
+but i feel alone
+
+am i being inconsiderate? 
+
+this place is no home
+
+i wish we’d talk
+but maybe you don’t
+
+you wrote a letter
+i wrote one too
+but it feels like a joke
+me and you
+
+you make it sound so easy
+not like spiraling towards doom
+
+sometimes i’m jealous
+
+(of you) other times i rue 
+that feeling in my heart
+like it stems from a drop of dew
+the fear that makes it hard to start
+it shouts:
+
+am i even good enough for you?
+do i go first or wait for them to make a move?
+am i too much?
+and do they see it too?
+or am i too little? 
+still somehow taking up room
+
+maybe this place isn’t meant for me
+maybe someone else fits who i can’t be
+maybe from the very beginning
+our ending was long overdue
+
+empty me out
+don’t come near
+said you were there
+but i still feel you here`}
+      />
+      <WritingCard 
+        title="Emptier (2)"
+        author="Wistful"
+        snippet="Give me more..."
+        fullText={`give me more
+am i supposed to follow?
+thought what we had was deep
+but i feel hollow
+
+tell me i’m dumb
+just say i’m not enough
+
+every interaction between us
+leaves me worse than if i had flown too close to the sun
+
+is it all my fault?
+i don’t want to lose us
+but i don’t feel like your best friend
+much less a person you can believe in
+
+all the little things
+they pile up and cling to me like dung
+is it rotten?
+this thing we called love
+tiny moments that fracture my skin 
+turning me (and you) to dust
+
+i want to understand you
+am i not doing enough?
+it must be my own twisted fantasy
+and all this pain is a lie made up in my head
+
+it feels too hard to talk to you
+does that make me a bad “best” friend?
+do i sit around and pretend?
+are we just stalling although we know we’ve reached the end?
+
+take it back
+i can’t walk that road
+thought what we had was small
+but the weight is breaking my bones`}
+      />
+      <WritingCard 
+        title="Blood (3)"
+        author="Wistful"
+        snippet="I should've seen the signs..."
+        fullText={`i should’ve seen the signs
+way too much to deny
+
+the decay and the rot
+takes root inside my heart
+
+i wish I kept more of it on
+probably never should’ve taken down my walls
+
+A knight wears armour for a reason
+It holds its sword for a lifetime
+Wears a shield to hide
+
+you can’t trust in words
+when actions don’t line up
+
+why’d i ever trust
+that this would be enough
+
+my blood spills out
+by my own hand
+i hold the knife
+that stabs me again and again.`}
+      />
+    </div>
+  </section>
+  
   {/* Poetry Section */}
   <section>
     <h1 className="text-3xl font-bold font-serif text-center mb-6 text-[#5B3A29]">Poetry</h1>
@@ -174,25 +300,7 @@ Why…?`}
     </div>
   </section>
 
-  {/* Non-Fiction Section */}
-  {/* <section>
-    <h1 className="text-3xl font-bold font-serif text-center mb-6 text-[#5B3A29]">Non-Fiction</h1>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <WritingCard 
-        title=""
-        author="Wistful"
-        snippet="..."
-        fullText={``}
-      />
-      <WritingCard 
-        title=""
-        author=""
-        snippet="..."
-        fullText={``}
-      />
-    </div>
-  </section> */}
-  <h2 className="text-center text-bold text-lg"> Updates coming soon</h2>
+  <h2 className="text-center text-bold text-lg"> More updates coming soon...</h2>
 </main>
     );
 }
