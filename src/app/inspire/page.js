@@ -99,7 +99,7 @@ const quotesData = {
     { quote: "“It does not matter how slowly you go so long as you do not stop.” - Confucius", category: "Motivational" },
     { quote: "“It's not whether you get knocked down, it's whether you get up.” - Vince Lombardi", category: "Motivational" },
     { quote: "“You miss 100% of the shots you don't take.” - Wayne Gretzky", category: "Motivational" },
-    { quote: "“Genuis is 1% inspiration, 99% perspiration.” - Thomas A. Edison", category: "Motivational" },
+    { quote: "“Genius is 1% inspiration, 99% perspiration.” - Thomas A. Edison", category: "Motivational" },
     { quote: "“If you think you can do a thing or think you can't do a thing, you're right.” - Henry Ford", category: "Motivational" },
     { quote: "“It always seems impossible until it's done.” - Nelson Mandela", category: "Motivational" },
     { quote: "“Insanity: doing the same thing over and over again and expecting different results.” - Albert Einstein", category: "Motivational" },
